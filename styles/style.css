@@ -3,7 +3,7 @@
     padding: 0;
 }
 
-body {
+body, button {
     font-family: "Sora", sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
@@ -12,11 +12,13 @@ img{
     max-width: 50%;
 }
 .card{
-    width: 500px;
+    width: 400px;
     margin: 200px auto;
     box-shadow: 8px 8px 20px 0px rgba(85, 85, 85, 0.08);
     border-radius: 8px;
-    padding: 16px;
+}
+.card-content{
+    margin: 16px;
 }
 
 .card-img{
@@ -26,4 +28,33 @@ img{
     display: flex;
     justify-content: center;
     align-items: end;
+    margin-bottom: 18px;
+}
+.card-btn{
+    border: none;
+    color: #7C19EE;
+    padding: 5px 12px;
+    font-size: 0.75rem;
+    font-weight: 600;
+    border-radius: 16px;
+    margin-bottom: 20px;
+}
+.card-info{
+    width: 340px;
+}
+.title{
+    font-size: 1.125rem;
+    font-weight: 700;
+    color: #20293A;
+    margin-bottom: 10px;
+}
+.description{
+    font-size: 0.875rem;
+    color: #394150;
+    opacity: 0.8;
+    line-height: 1.6;
+}
+hr{
+    margin: 20px 0;
+    border: 1px solid #E5EAF0;
 }
